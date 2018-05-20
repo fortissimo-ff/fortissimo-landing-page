@@ -1,9 +1,14 @@
 # fortissimo-landing-page
 
 
+
 # Motivation
 
 Introduction of fortissimo
+
+# Tech Stack
+
+
 
 # License
 
