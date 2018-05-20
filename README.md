@@ -4,7 +4,7 @@
 
 # Motivation
 
-Introduction of fortissimo
+Tell the world what fortissimo is all about. 
 
 # Tech Stack
 
