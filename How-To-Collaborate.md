@@ -2,7 +2,7 @@
 find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. 
 For questions that require more lengthy discussions, join the [fortissimo discussion]().
 
-2) Raise an [issue](https://github.com/fortissimo-ff/fortissimo-landing-page/issues) by indicating a title for the issue (number the issue with e.g. #2, #3, #4, etc. by referring to the most recent #issue and incrementing it by 1), 
+2) Raise an [issue](https://github.com/fortissimo-ff/fortissimo-landing-page/issues/new) by indicating a title for the issue (number the issue with e.g. #2, #3, #4, etc. by referring to the most recent #issue and incrementing it by 1), 
 what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. 
 Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template]()
 
