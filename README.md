@@ -1,6 +1,6 @@
 # fortissimo-landing-page
 
-[How To Collaborate]()
+[How To Collaborate](https://github.com/fortissimo-ff/fortissimo-landing-page/blob/master/How-To-Collaborate.md)
 
 # Motivation
 
