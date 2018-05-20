@@ -6,7 +6,7 @@ For questions that require more lengthy discussions, join the [fortissimo discus
 what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. 
 Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template]()
 
-3) Work on the improvement or fixture of each issue on a separate branch (label branch using issue number) and [send a pull request]() for review, 
+3) Work on the improvement or fixture of each issue on a separate branch (label branch using issue number) and [send a pull request](https://github.com/fortissimo-ff/fortissimo-landing-page/compare) for review, 
 comparing a new head branch of modifications with the base branch by selecting the associated issue number as the new head branch with the pull request. 
 The issue number selected will be the title of the pull request. The commit message will contain reference to the issue number, the changes made, and the test plan (if any). 
 The pull request will be labelled as **_high priority for easy fixes_**, **_medium priority for middle-of-the-road fixes_**, and **_low priorty for difficult fixes_**. 
