@@ -10,7 +10,6 @@ Tell the world what fortissimo is all about.
 
 * [HTML5 Hackform Tool](https://github.com/CookiesNCream/h5ht)
 * [React App](https://github.com/facebook/create-react-app)
-* [React Native App](https://github.com/react-community/create-react-native-app/)
 
 # License
 
