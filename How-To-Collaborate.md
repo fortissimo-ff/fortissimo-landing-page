@@ -1,3 +1,5 @@
+Note: Steps 1 - 4 follow [Project Landing Page](https://github.com/fortissimo-ff/fortissimo-landing-page/projects/1) for columns Backlog to QA while Step 5 concludes at column Done.
+
 1) [Fork](https://drive.google.com/file/d/1QL5jKdX-bcCAi48rcFNsbrKYAPGzx7dz/view?usp=sharing) the fortissimo landing page repo by clicking on the "Fork" button at the top right-hand side of the repo and 
 find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. 
 For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas).
