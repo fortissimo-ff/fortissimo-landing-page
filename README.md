@@ -9,6 +9,7 @@ Tell the world what fortissimo is all about via a Web app.
 # Tech Stack
 
 * [React App](https://github.com/facebook/create-react-app)
+* [Firebase Hosting](https://github.com/woniesong92/firebase-hosting-guide)
 
 # License
 
