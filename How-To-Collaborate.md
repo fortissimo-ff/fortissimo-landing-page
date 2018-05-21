@@ -2,7 +2,7 @@
 find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. 
 For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas).
 
-2) Raise an [issue](https://github.com/fortissimo-ff/fortissimo-landing-page/issues/new) by indicating a title for the new issue (the numbering of the issue with e.g. #1, #2, #3, #4, etc. is automatically generated), what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template](https://drive.google.com/file/d/1UzgmB9BTCTCktGcHotv1RqefrMg-vEcH/view?usp=sharing)
+2) Raise an [issue](https://github.com/fortissimo-ff/fortissimo-landing-page/issues/new) by indicating a title for the new issue (the numbering of the issue with e.g. #1, #2, #3, #4, etc. is automatically generated), what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template](https://drive.google.com/file/d/14ptmAJZ1H7U5UvbssSQn-kbvUGXmi7Ta/view?usp=sharing)
 
 3) Work on the improvement or fixture of each issue on a separate branch (label branch using issue number) and [send a pull request](https://github.com/fortissimo-ff/fortissimo-landing-page/compare) for review, 
 comparing a new head branch of modifications with the base branch by selecting the associated issue number as the new head branch with the pull request. 
