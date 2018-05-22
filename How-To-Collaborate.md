@@ -3,7 +3,7 @@ Note: Steps 1 - 4 follow [Project Landing Page](https://github.com/fortissimo-ff
 1) [Fork](https://drive.google.com/file/d/1QL5jKdX-bcCAi48rcFNsbrKYAPGzx7dz/view?usp=sharing) the fortissimo landing page repo by clicking on the "Fork" button at the top right-hand side of the repo and 
 find a bug (e.g. code, documentation, accessibility, test coverage) or think of a quick question. 
 For questions that require more lengthy discussions, join the [fortissimo discussion](https://github.com/orgs/fortissimo-ff/teams/tech-ninjas).
-[Download node modules](https://drive.google.com/file/d/1Dh7HVKNSuif_rKufHJex_wQZPSeXNUWc/view?usp=sharing)
+Clone the forked fortissimo landing page repo. [Download node modules](https://drive.google.com/file/d/1Dh7HVKNSuif_rKufHJex_wQZPSeXNUWc/view?usp=sharing)
 
 2) Raise an [issue](https://github.com/fortissimo-ff/fortissimo-landing-page/issues/new) by indicating a title for the new issue (the numbering of the issue with e.g. #1, #2, #3, #4, etc. is automatically generated), what the issue is, why is it an issue, what needs improvement or fixing, and what can be done to improve or fix it. Label the issue (e.g. bug, documentation, accessibility, test coverage). See [Raise Issue Template](https://drive.google.com/file/d/14ptmAJZ1H7U5UvbssSQn-kbvUGXmi7Ta/view?usp=sharing)
 
