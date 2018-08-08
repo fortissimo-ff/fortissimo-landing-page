@@ -1,0 +1,48 @@
+
+nav {
+  position: fixed;
+  align-items: center;
+  vertical-align: middle;
+  height: 60px;
+  line-height: 60px;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+nav > ul > li {
+  height: 100%;
+  width: 180px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav > ul > li > a {
+  font-size: 20px;
+  height: 100%;
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+nav #nav-menu {
+  margin-right: auto;
+}
+
+nav #nav-menu #fortissimo-logo {
+  width: 140px;
+  margin-top: 14px;
+}
