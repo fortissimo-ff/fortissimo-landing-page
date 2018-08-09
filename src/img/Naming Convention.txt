@@ -1,0 +1,8 @@
+Use the following prefixes:
+    'img-logo-' for fortissimo's logos
+    'img-button-' for buttons
+    'img-icon-' for social media icons
+    'img-bg-' for background images
+    'img-clipart-' for the 9 small circular images
+        'img-clipart-os-' for images on "our story" page
+        'img-clipart-wwd-' for images on "what we do" page
