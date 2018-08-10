@@ -9,7 +9,7 @@ import SocialMediaIcons from './SocialMediaIcons';
 class Home extends Component {
   render() {
     return (
-      <div className="Home">
+      <div className="Home" id="Home">
         <OpeningHeader />
         <LearnMoreButton />
         <SocialMediaIcons />
