@@ -3,3 +3,8 @@
   margin: 0;
   border: 0;
 }
+
+.App {
+  overflow-x: hidden;
+  overflow-y: auto;
+}

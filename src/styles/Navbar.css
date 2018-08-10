@@ -1,14 +1,27 @@
-
 nav {
   position: fixed;
   align-items: center;
   vertical-align: middle;
-  height: 60px;
-  line-height: 60px;
+  height: 4vw;
+  line-height: 4vw;
   width: 100%;
+  z-index: 1;
+  overflow: hidden;
 }
 
-nav > ul {
+nav .nav-wrapper {
+  /* For transitioning the Navbar from purple to transparent. */
+  background-color: none;
+  transition: background-color 0.5s;
+}
+
+nav > .solid {
+  /* For transitioning the Navbar from transparent to purple. */
+  background-color: #55205D;
+  transition: background-color 0.5s;
+}
+
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -19,16 +32,26 @@ nav > ul {
   display: flex;
 }
 
-nav > ul > li {
+nav ul li {
   height: 100%;
-  width: 180px;
+  width: 15vw;
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  /* For un-highlighting the current page. */
+  background-color: none;
+  transition: background-color 0.5s;
 }
 
-nav > ul > li > a {
-  font-size: 20px;
+nav ul li.solid {
+  /* For highlighting the current page. */
+  background-color: #9739E8;
+  transition: background-color 0.5s;
+}
+
+nav ul > li > a {
+  font-size: 1.5vw;
   height: 100%;
   color: white;
   text-align: center;
@@ -38,11 +61,17 @@ nav > ul > li > a {
   vertical-align: middle;
 }
 
+body nav ul > li > a.bold {
+  /* For making the current page Navbar item bolded. */
+  font-weight: bold;
+  transition: font-weight 0.5s;
+}
+
 nav #nav-menu {
   margin-right: auto;
 }
 
 nav #nav-menu #fortissimo-logo {
-  width: 140px;
-  margin-top: 14px;
+  width: 10vw;
+  margin-top: 0.9vw;
 }
