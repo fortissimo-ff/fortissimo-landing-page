@@ -1,4 +1,50 @@
 .About {
   width: 100vw;
-  height: 100vh; /* Change or remove this later */
+  height: 100vh;
+  background-color: #FEF7FF;
+}
+
+.LeftBlurbs {
+    position: relative;
+    left: 5%;
+    background-color: #E8D3F7;
+    width: 73%;
+    font-family: Raleway;
+    font-size: 18pt;
+    text-align: center;
+    font-weight: normal;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+
+
+  }
+
+#title {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  padding: 20px;
+  font-size: 30pt;
+  color: #9739E8
+}
+
+.LeftBlurbImages{
+  float: right;
+  width: 80px;
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px grey;
+  margin-right: 40px;
+
+}
+
+.RightBlurbImages {
+  float: left;
+  width: 80px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px grey;
+  border-radius: 15px;
+  margin-left: 40px;
 }

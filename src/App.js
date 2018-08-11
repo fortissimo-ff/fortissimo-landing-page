@@ -5,6 +5,7 @@ import './styles/App.css';
 // Components
 import Home from './components/Home/Home';
 import About from './components/About/About';
+import OurStory from "./components/About/OurStory";
 import Contact from './components/Contact/Contact';
 import Navbar from './components/Navbar';
 

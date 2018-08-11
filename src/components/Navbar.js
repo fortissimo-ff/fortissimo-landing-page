@@ -3,6 +3,7 @@ import fortissimo_logo from '../img/img-logo-white-fortissimo.png';
 import '../styles/Navbar.css';
 
 class Navbar extends Component {
+
   render() {
     return (
       <div className="Navbar">
