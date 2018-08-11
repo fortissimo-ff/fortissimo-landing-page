@@ -8,7 +8,7 @@ class SocialMediaIcons extends Component {
     return (
       <div className="SocialMediaIcons">
         <a href="https://www.facebook.com/breakfasy/" target="_blank"><img src={Facebook_logo} alt={"Facebook_logo"}/></a>
-        <a href="" target="_blank"><img src={Instagram_logo} alt={"Instagram_logo"}/></a>
+        <a href="https://instagram.com/breakfasy_" target="_blank"><img src={Instagram_logo} alt={"Instagram_logo"}/></a>
         <a href="https://twitter.com/breakfasy_" target="_blank"><img src={Twitter_logo} alt={"Twitter_logo"}/></a>
       </div>
     );
