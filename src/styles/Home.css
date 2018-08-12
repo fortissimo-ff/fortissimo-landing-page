@@ -11,28 +11,38 @@
 
 #OpeningHeader {
   font-weight: normal;
-  position: relative;
-  top: 28%;
-  font-size: 60px;
+  position: absolute;
+  top: 25%;
+  left: 0;
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto;
+  font-size: 5vw;
 }
 
 .LearnMoreButton {
-  position: relative;
-  top: 32%;
+  position: absolute;
+  top: 52%;
+  left: 0; 
+  right: 0;
   margin-left: auto;
   margin-right: auto;
 }
 
 .LearnMoreButton img {
-  width: 250px;
+  width: 17vw;
 }
 
 .SocialMediaIcons {
-  position: relative;
-  top: 54%;
+  position: absolute;
+  top: 88%;
+  left: 0; 
+  right: 0;
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 .SocialMediaIcons img {
-  width: 50px;
-  margin: 0px 20px 0px 20px;
+  width: 4vw;
+  margin: 0px 1.5vw 0px 1.5vw;
 }
