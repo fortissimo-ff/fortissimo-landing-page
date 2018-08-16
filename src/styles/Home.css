@@ -15,7 +15,7 @@
   top: 25%;
   left: 0;
   right: 0;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
   font-size: 5vw;
 }
@@ -23,7 +23,7 @@
 .LearnMoreButton {
   position: absolute;
   top: 52%;
-  left: 0; 
+  left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
@@ -36,9 +36,9 @@
 .SocialMediaIcons {
   position: absolute;
   top: 88%;
-  left: 0; 
+  left: 0;
   right: 0;
-  margin-left: auto; 
+  margin-left: auto;
   margin-right: auto;
 }
 
