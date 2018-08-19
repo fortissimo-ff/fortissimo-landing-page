@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
 import '../../styles/Video.css';
-import fortissimo_video from '../../videos/v2.3-fortissimo-video.mp4';
+
 
 
 class Video extends Component {
@@ -12,7 +12,7 @@ class Video extends Component {
         controls
         width= "100%"
         height= "100%"
-        url = {fortissimo_video} />
+        url = "https://www.youtube.com/watch?v=79XsGVCmNCo" />
       </div>
     );
   }
