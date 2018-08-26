@@ -3,4 +3,85 @@
   height: 100vh;
   background-image: url('../img/img-bg-dark.jpg');
   background-size: 100% 100%;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+#Header {
+  font-weight: lighter;
+  position: absolute;
+  top: 10%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 4.3vw;
+  font-style: italic;
+  vertical-align: middle;
+}
+
+#Chat {
+  position: absolute;
+  top: 36%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.75vw;
+  color: white;
+  vertical-align: middle;
+}
+
+#Help {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.75vw;
+  color: white;
+  vertical-align: middle;
+}
+
+.SocialMediaIcons {
+  position: absolute;
+  top: 68%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SocialMediaIcons img {
+  width: 4vw;
+  margin: 0px 1.5vw 0px 1.5vw;
+}
+
+#Follow {
+  font-weight: normal;
+  position: absolute;
+  top: 78%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vw;
+  color: white;
+  vertical-align: middle;
+}
+
+#Copyright {
+  font-weight: normal;
+  position: absolute;
+  top: 95%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2vw;
+  color: white;
+  vertical-align: middle;
 }
