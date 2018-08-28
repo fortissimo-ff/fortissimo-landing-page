@@ -7,7 +7,8 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Navbar from './components/Navbar';
 import Video from "./components/Video/Video.js";
-import WhatWeDo from './components/WhatWeDo/WhatWeDo.js'
+import WhatWeDo from './components/WhatWeDo/WhatWeDo.js';
+import Contact from "./components/Contact/Contact.js";
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
         <About />
         <Video />
         <WhatWeDo />
+        <Contact />
       </div>
     );
   }

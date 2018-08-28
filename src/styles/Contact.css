@@ -32,6 +32,8 @@
   font-size: 2.75vw;
   color: white;
   vertical-align: middle;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 #Help {
@@ -44,6 +46,8 @@
   font-size: 2.75vw;
   color: white;
   vertical-align: middle;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .SocialMediaIcons {
@@ -61,7 +65,7 @@
 }
 
 #Follow {
-  font-weight: normal;
+  font-weight: bold;
   position: absolute;
   top: 78%;
   left: 0;
@@ -81,7 +85,7 @@
   right: 0;
   margin-left: auto;
   margin-right: auto;
-  font-size: 2vw;
+  font-size: 1vw;
   color: white;
   vertical-align: middle;
 }
