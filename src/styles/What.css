@@ -1,6 +1,6 @@
 .WhatWeDo {
   width: 100vw;
-  height: 130vh; /* Change or remove this later */
+  height: 160vh; /* Change or remove this later */
   background-color: #FEF7FF;
 }
 
@@ -14,7 +14,7 @@
     text-align: center;
     font-weight: normal;
     padding: 20px;
-    border-radius: 5px; 
+    border-radius: 5px;
     display: inline-block;
   }
 .Catch {
@@ -53,10 +53,10 @@
   width: 100px;
   height: 100px;
   padding: 0px;
-  border-radius: 80px;
-  box-shadow: 5px 5px 5px grey;
-  margin-right: 40px;
-
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
 }
 
 .RightBlurbImages {
@@ -64,7 +64,23 @@
   width: 100px;
   height: 100px;
   padding: 0px;
-  box-shadow: 5px 5px 5px grey;
-  border-radius: 80px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+#wwdLeftBlurb {
+  padding: 0px;
+  border-radius: 50%;
+  margin-right: 40px;
+  box-shadow: 5px 5px 5px grey
+}
+
+#wwdRightBlurb {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
   margin-left: 40px;
+  box-shadow: 5px 5px 5px grey;
 }
