@@ -94,7 +94,7 @@
   background-color: white;
 }
 
-.fillRightBlurbImages { /* For sf.jpg */
+.fillRightBlurbImages { /* For fortissimo logo */
   display: flex;
   flex-direction: row;
   float: left;
@@ -107,7 +107,7 @@
   background-color: white;
 }
 
-.fillLeftBlurbImages { /* For fortissimo logo */
+.fillLeftBlurbImages { /* For sf.jpg */
   display: flex;
   flex-direction: row;
   float: right;
