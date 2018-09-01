@@ -23,7 +23,7 @@ class Blurbs extends Component {
         <div className = "blurbDivs">
 
           <h3 className ="Catch">
-          We want you to make a difference in someone else''s life while you reap the health benefits of breakfast.
+          We want you to make a difference in someone else's life while you reap the health benefits of breakfast.
 
           <ColoredLine color= "gray" />
           <font color="gray">Breakfast Software Served Sunny-side Up to Change Lives</font>
