@@ -16,7 +16,9 @@ class Blurbs extends Component {
             café for breakfast. She ordered a cappuccino and a croissant.
           </h3>
 
-          <img className = "LeftBlurbImages" src={require("../../img/img-clipart-os-coffee.png")} alt="coffee"/>
+          <div className = "LeftCircleDiv">
+            <img className = "LeftBlurbImages" src={require("../../img/img-clipart-os-coffee.png")} alt="coffee"/>
+          </div>
 
         </div>
 
@@ -28,7 +30,9 @@ class Blurbs extends Component {
             in the cold with barely enough warm clothing.
           </h3>
 
-          <img className = "RightBlurbImages" src={require("../../img/img-clipart-os-snowflake.png")} alt="snowflake"/>
+          <div className = "RightCircleDiv">
+            <img className = "RightBlurbImages" src={require("../../img/img-clipart-os-snowflake.png")} alt="snowflake"/>
+          </div>
 
         </div>
 
@@ -40,7 +44,7 @@ class Blurbs extends Component {
             homelessness in a wealthy city like San Francisco.
           </h3>
 
-          <img className = "LeftBlurbImages" src={require("../../img/img-clipart-os-sf.jpg")} alt="San Francisco"/>
+          <img className = "fillLeftBlurbImages" src={require("../../img/img-clipart-os-sf.jpg")} alt="San Francisco"/>
 
         </div>
 
@@ -50,7 +54,9 @@ class Blurbs extends Component {
             Her heart went out to the homeless people as she witnessed more of such scenarios in San Francisco.
           </h3>
 
-          <img className = "RightBlurbImages" src={require("../../img/img-clipart-os-heart.png")} alt="heart"/>
+          <div className = "RightCircleDiv">
+            <img className = "RightBlurbImages" src={require("../../img/img-clipart-os-heart.png")} alt="heart"/>
+          </div>
 
         </div>
 
@@ -61,7 +67,9 @@ class Blurbs extends Component {
             She thought of mobilizing the able to help those in need, beginning with the homeless in SF.
           </h3>
 
-          <img className = "LeftBlurbImages" src={require("../../img/img-clipart-os-jam.png")} alt="jam"/>
+          <div className = "LeftCircleDiv">
+            <img className = "LeftBlurbImages" src={require("../../img/img-clipart-os-jam.png")} alt="jam"/>
+          </div>
 
         </div>
 
@@ -71,7 +79,7 @@ class Blurbs extends Component {
             And that's the story of how fortissimo was conceived.
           </h3>
 
-          <img className = "RightBlurbImages" src={require("../../img/img-logo-colored.jpg")} alt="fortissimo-logo"/ >
+          <img className = "fillRightBlurbImages" src={require("../../img/img-logo-colored.jpg")} alt="fortissimo-logo"/ >
 
         </div>
       </div>

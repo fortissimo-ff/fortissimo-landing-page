@@ -16,7 +16,7 @@
     padding: 20px;
     border-radius: 5px;
     display: inline-block;
-  }
+}
 
 .endingBlurbs {
   position: relative;
@@ -46,10 +46,34 @@
   color: #9739E8
 }
 
-
 .LeftBlurbImages{
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   float: right;
   width: 80px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.RightBlurbImages {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  float: left;
+  width: 80px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.LeftCircleDiv {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 110px;
+  height: 110px;
   padding: 10px;
   border-radius: 80px;
   box-shadow: 5px 5px 5px grey;
@@ -57,12 +81,41 @@
   background-color: white;
 }
 
-.RightBlurbImages {
+.RightCircleDiv {
+  display: flex;
+  flex-direction: row;
   float: left;
-  width: 80px;
+  width: 110px;
+  height: 110px;
   padding: 10px;
   border-radius: 80px;
   box-shadow: 5px 5px 5px grey;
   margin-left: 40px;
+  background-color: white;
+}
+
+.fillRightBlurbImages { /* For fortissimo logo */
+  display: flex;
+  flex-direction: row;
+  float: left;
+  width: 130px;
+  height: 130px;
+  padding: 0px;
+  border-radius: 80px;
+  box-shadow: 5px 5px 5px grey;
+  margin-left: 40px;
+  background-color: white;
+}
+
+.fillLeftBlurbImages { /* For sf.jpg */
+  display: flex;
+  flex-direction: row;
+  float: right;
+  width: 130px;
+  height: 130px;
+  padding: 0px;
+  border-radius: 80px;
+  box-shadow: 5px 5px 5px grey;
+  margin-right: 40px;
   background-color: white;
 }
