@@ -84,3 +84,127 @@
   margin-left: 40px;
   box-shadow: 5px 5px 5px grey;
 }
+
+@media (max-width: 480px){
+    .Blurbs{
+        font-size: 10pt;
+        width: 57vw;
+    }
+    .LeftBlurbImages{
+        width: 40px;
+        height: 40px;
+    }
+    .LeftCircleDiv{
+        width: 50px;
+        height: 50px;
+    }
+    .RightBlurbImages{
+        width: 40px;
+        height: 40px;
+    }
+    .RightCircleDiv{
+        width: 50px;
+        height: 50px;
+    }
+    .fillLeftBlurbImages{
+        width: 65px;
+        height: 65px;
+    }
+    .fillRightBlurbImages{
+        width: 65px;
+        height: 65px;
+    }
+}
+@media (max-width: 580px) and (min-width: 481px){
+    .Blurbs{
+        font-size: 13pt;
+        width: 57.5vw;
+    }
+    .LeftBlurbImages{
+        width: 65px;
+        height: 65px;
+    }
+    .LeftCircleDiv{
+        width: 75px;
+        height: 75px;
+    }
+    .RightBlurbImages{
+        width: 65px;
+        height: 65px;
+    }
+    .RightCircleDiv{
+        width: 75px;
+        height: 75px;
+    }
+    .fillLeftBlurbImages{
+        width: 90px;
+        height: 90px;
+    }
+    .fillRightBlurbImages{
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 581px){
+    .Blurbs{
+        font-size: 13pt;
+        width: 57.5vw;
+    }
+    .LeftBlurbImages{
+        width: 75px;
+        height: 75px;
+    }
+    .LeftCircleDiv{
+        width: 85px;
+        height: 85px;
+    }
+    .RightBlurbImages{
+        width: 75px;
+        height: 75px;
+    }
+    .RightCircleDiv{
+        width: 85px;
+        height: 85px;
+    }
+    .fillLeftBlurbImages{
+        width: 100px;
+        height: 100px;
+    }
+    .fillRightBlurbImages{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 1800px) and (min-width: 751px){
+    .Blurbs{
+        position: relative;
+        left: 5%;
+        background-color: #E8D3F7;
+        width: 60vw;
+        font-family: Raleway;
+        font-size: 15pt;
+        text-align: center;
+        font-weight: normal;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 1801px){
+    .Blurbs {
+        position: relative;
+        left: 5%;
+        background-color: #E8D3F7;
+        width: 73vw;
+        font-family: Raleway;
+        font-size: 18pt;
+        text-align: center;
+        font-weight: normal;
+        padding: 20px;
+        border-radius: 5px;
+        display: inline-block;
+      }
+}
