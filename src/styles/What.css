@@ -85,7 +85,77 @@
   box-shadow: 5px 5px 5px grey;
 }
 
-@media (max-width: 480px){
+@media (max-width: 380px){
+    .Blurbs{
+        font-size: 6pt;
+        width: 57vw;
+        padding: 10px;
+    }
+    .blurbDivs{
+        padding: 15px 0px 15px 0px;
+    }
+    .LeftBlurbImages{
+        width: 25px;
+        height: 25px;
+    }
+    .LeftCircleDiv{
+        width: 30px;
+        height: 30px;
+    }
+    .RightBlurbImages{
+        width: 25px;
+        height: 25px;
+    }
+    .RightCircleDiv{
+        width: 30px;
+        height: 30px;
+    }
+    .fillLeftBlurbImages{
+        width: 50px;
+        height: 50px;
+    }
+    .fillRightBlurbImages{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 381px){
+    .Blurbs{
+        font-size: 8pt;
+        width: 57vw;
+        padding: 15px;
+    }
+    .blurbDivs{
+        padding: 15px 0px 15px 0px;
+    }
+    .LeftBlurbImages{
+        width: 30px;
+        height: 30px;
+    }
+    .LeftCircleDiv{
+        width: 35px;
+        height: 35px;
+    }
+    .RightBlurbImages{
+        width: 30px;
+        height: 30px;
+    }
+    .RightCircleDiv{
+        width: 35px;
+        height: 35px;
+    }
+    .fillLeftBlurbImages{
+        width: 50px;
+        height: 50px;
+    }
+    .fillRightBlurbImages{
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 431px){
     .Blurbs{
         font-size: 10pt;
         width: 57vw;
