@@ -20,7 +20,7 @@ class Blurbs extends Component {
         </h1>
 
 
-        <div className = "blurbDivs">
+        <div id="catchDiv" className = "blurbDivs">
 
           <h3 className ="Catch">
           We want you to make a difference in someone else's life while you reap the health benefits of breakfast.
