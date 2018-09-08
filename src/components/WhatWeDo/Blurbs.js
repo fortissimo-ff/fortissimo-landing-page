@@ -5,7 +5,7 @@ import React, { Component } from 'react';
             color: color,
             backgroundColor: color,
             height: 1,
-            margin: 50
+            margin: 'calc(4vw)'
         }}
     />
 );
