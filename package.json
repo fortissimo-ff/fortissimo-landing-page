@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "macaddress": "^0.2.9",
     "macaddress-secure": "^0.2.11",
     "react": "^16.3.2",
     "react-anchor-link-smooth-scroll": "^1.0.11",
