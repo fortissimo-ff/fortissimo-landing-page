@@ -42,12 +42,15 @@
 }
 
 #title {
+  align: center;
+  justify-content: center;
+  text-align: center;
   position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 300px;
   padding: 20px;
-  font-size: 35pt;
+  font-size: 34pt;
   font-style: italic;
   font-weight: lighter;
   color: #9739E8
@@ -142,8 +145,8 @@
     #catchDiv{
       padding: 11px;
     }
-    #catchDiv h3 hr{
-      margin: 23px;
+    #title{
+      font-size: 16pt;
     }
 }
 
@@ -199,8 +202,8 @@
     #catchDiv{
         padding: 12px;
     }
-    #catchDiv h3 hr{
-      margin: 25px;
+    #title{
+      font-size: 17pt;
     }
 }
 
@@ -250,8 +253,8 @@
     #catchDiv{
         padding: 13px;
     }
-    #catchDiv h3 hr{
-      margin: 27px;
+    #title{
+      font-size: 18pt;
     }
 }
 @media (max-width: 580px) and (min-width: 481px){
@@ -300,8 +303,8 @@
     #catchDiv{
         padding: 14px;
     }
-    #catchDiv h3 hr{
-      margin: 30px;
+    #title{
+      font-size: 20pt;
     }
 }
 
@@ -351,8 +354,8 @@
     #catchDiv{
         padding: 15px;
     }
-    #catchDiv h3 hr{
-      margin: 35px;
+    #title{
+      font-size: 22px;
     }
 }
 
@@ -378,8 +381,8 @@
      #catchDiv{
           padding: 17px;
      }
-     #catchDiv hr{
-       margin:40px;
+     #title{
+       font-size: 24pt;
      }
 }
 
@@ -395,8 +398,8 @@
       #catchDiv{
         padding: 18px;
       }
-      #catchDiv h3 hr{
-        margin: 44px;
+      #title{
+        font-size: 27pt;
       }
 }
 
@@ -411,9 +414,6 @@
       }
       #catchDiv{
         padding: 19px;
-      }
-      #catchDiv h3 hr{
-        margin: 45px;
       }
 }
 

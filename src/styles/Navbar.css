@@ -2,8 +2,8 @@ nav {
   position: fixed;
   align-items: center;
   vertical-align: middle;
-  height: 4vw;
-  line-height: 4vw;
+  height: 6.5vh;
+  line-height: 6.5vh;
   width: 100%;
   z-index: 1;
   overflow: hidden;
@@ -13,6 +13,7 @@ nav .nav-wrapper {
   /* For transitioning the Navbar from purple to transparent. */
   background-color: none;
   transition: background-color 0.5s;
+  height: 6.5vh;
 }
 
 nav > .solid {
@@ -59,6 +60,7 @@ nav ul > li > a {
   margin: 0px;
   text-decoration: none;
   vertical-align: middle;
+  justify-content: center;
 }
 
 body nav ul > li > a.bold {
@@ -73,5 +75,5 @@ nav #nav-menu {
 
 nav #nav-menu #fortissimo-logo {
   width: 10vw;
-  margin-top: 0.9vw;
+  vertical-align: middle;
 }
