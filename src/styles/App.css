@@ -7,4 +7,27 @@
 .App {
   overflow-x: hidden;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.Home{
+    flex: auto;
+}
+
+.About{
+    flex: auto;
+}
+
+.Video{
+    flex: auto;
+}
+
+.What{
+    flex: auto;
+}
+
+.Contact{
+    flex: auto;
 }

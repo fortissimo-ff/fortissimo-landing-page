@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-image: url('../img/img-bg-dark.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
   text-align: center;
   vertical-align: middle;
   justify-content: center;
@@ -46,4 +46,61 @@
 .SocialMediaIcons img {
   width: 4vw;
   margin: 0px 1.5vw 0px 1.5vw;
+}
+
+@media (max-width: 380px){
+    .LearnMoreButton img{
+        width: 30vw;
+    }
+    .SocialMediaIcons img {
+        width: 30px;
+        margin: 0px 1.5vw 0px 1.5vw;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 381px){
+    .LearnMoreButton img{
+        width: 30vw;
+    }
+    .SocialMediaIcons img {
+        width: 35px;
+        margin: 0px 1.5vw 0px 1.5vw;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 431px){
+    .LearnMoreButton img{
+        width: 30vw;
+    }
+    .SocialMediaIcons img {
+        width: 35px;
+        margin: 0px 1.5vw 0px 1.5vw;
+    }
+}
+@media (max-width: 580px) and (min-width: 481px){
+    .LearnMoreButton img{
+        width: 30vw;
+    }
+    .SocialMediaIcons img {
+        width: 35px;
+        margin: 0px 1.5vw 0px 1.5vw;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 581px){
+    .LearnMoreButton img{
+        width: 30vw;
+    }
+    .SocialMediaIcons img {
+        width: 35px;
+        margin: 0px 1.5vw 0px 1.5vw;
+    }
+}
+
+@media (max-width: 1800px) and (min-width: 751px){
+
+}
+
+@media (min-width: 1801px){
+
 }

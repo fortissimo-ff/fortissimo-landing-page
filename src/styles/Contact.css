@@ -2,7 +2,7 @@
   width: 100vw;
   height: 100vh;
   background-image: url('../img/img-bg-dark.jpg');
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
   text-align: center;
   justify-content: center;
@@ -88,4 +88,67 @@
   font-size: 1vw;
   color: white;
   vertical-align: middle;
+}
+
+@media (max-width: 380px){
+  #Header {
+    font-size: 8vw;
+  }
+  #Follow{
+    font-size: 5vw;
+  }
+  #Chat{
+    font-size: 5vw;
+  }
+  #Help{
+    font-size: 5vw;
+  }
+  .SocialMediaIcons img {
+    width: 7vw;
+  }
+  #Copyright{
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 430px) and (min-width: 381px){
+  #Header {
+    font-size: 7vw;
+  }
+  #Follow{
+    font-size: 4vw;
+  }
+  #Chat{
+    font-size: 4vw;
+  }
+  #Help{
+    font-size: 4vw;
+  }
+  .SocialMediaIcons img {
+    width: 6vw;
+  }
+  #Copyright{
+    font-size: 2vw;
+  }
+}
+
+@media (max-width: 480px) and (min-width: 431px){
+  #Header {
+    font-size: 6vw;
+  }
+  #Follow{
+    font-size: 3vw;
+  }
+  #Chat{
+    font-size: 3vw;
+  }
+  #Help{
+    font-size: 3vw;
+  }
+  .SocialMediaIcons img {
+    width: 5vw;
+  }
+  #Copyright{
+    font-size: 1.5vw;
+  }
 }

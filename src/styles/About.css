@@ -1,7 +1,7 @@
 .About {
   width: 100vw;
-  height: 140vh; /* Change or remove this later */
   background-color: #FEF7FF;
+  padding-bottom: 25px;
 }
 
 .Blurbs {
