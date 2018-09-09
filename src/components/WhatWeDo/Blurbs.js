@@ -34,31 +34,43 @@ class Blurbs extends Component {
 
         <div className = "blurbDivs">
 
-          <h3 className ="Blurbs">
+
+          <div className = "RightCircleDiv">
+            <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-question.png")} alt="question mark"/>
+          </div>
+
+          <div className = "BlurbContainer">
+            <h3 className="BlurbText">
             So how does our breakfast app change lives?
-          </h3>
-
-          <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-question.png")} alt="question mark"/>
+            </h3>
+          </div>
 
         </div>
 
         <div className = "blurbDivs">
 
-          <h3 className = "Blurbs">
+          <div className = "BlurbContainer">
+            <h3 className="BlurbText">
             The app enables individuals to purchase a healthy and low-price breakfast.
-          </h3>
+            </h3>
+          </div>
 
-          <img className = "LeftBlurbImages" id = "wwdLeftBlurb" src={require("../../img/img-clipart-wwd-money.png")} alt="money"/>
+          <div className="LeftCircleDiv">
+            <img className = "LeftBlurbImages" id = "wwdLeftBlurb" src={require("../../img/img-clipart-wwd-money.png")} alt="money"/>
+          </div>
 
         </div>
 
         <div className = "blurbDivs">
 
-          <h3 className = "Blurbs">
+          <div className="RightCircleDiv">
+            <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-percent.png")} alt="percentage"/>
+          </div>
+          <div className = "BlurbContainer">
+            <h3 className="BlurbText">
             A percentage of your purchase is immediately contributed to helping people in need when using our app.
-          </h3>
-
-          <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-percent.png")} alt="percentage"/>
+            </h3>
+          </div>
 
         </div>
 

@@ -1,12 +1,9 @@
 .About {
   width: 100vw;
   background-color: #FEF7FF;
-  padding-bottom: 25px;
 }
 
-.Blurbs {
-    position: relative;
-    left: 5%;
+.BlurbContainer {
     background-color: #E8D3F7;
     width: 73%;
     font-family: Raleway;
@@ -16,52 +13,37 @@
     padding: 20px;
     border-radius: 5px;
     display: inline-block;
+    vertical-align: middle;
+    height: 80px;
+    position: relative;
 }
 
-.endingBlurbs {
-  position: relative;
-  left: 5%;
-  background-color: #E8D3F7;
-  width: 73%;
-  font-family: Raleway;
-  font-size: 22pt;
-  text-align: center;
-  font-weight: normal;
-  padding: 20px;
-  border-radius: 5px;
-  display: inline-block;
+.BlurbText {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
 .blurbDivs {
   padding: 20px 0px 20px 0px;
+  text-align: center;
+  position: relative;
 }
 
 #title {
+  align: center;
+  justify-content: center;
+  text-align: center;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  padding: 20px;
-  font-size: 30pt;
-  color: #9739E8
-}
-
-.LeftBlurbImages{
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  float: right;
-  width: 80px;
-  border-radius: 15px;
-  background-color: white;
+  font-size: 4.3vw;
+  font-style: italic;
+  font-weight: lighter;
+  color: #9739E8;
+  margin-bottom: 15px;
 }
 
 .RightBlurbImages {
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
   float: left;
   width: 80px;
   border-radius: 15px;
@@ -69,53 +51,46 @@
 }
 
 .LeftCircleDiv {
-  display: flex;
-  flex-direction: row;
-  float: right;
-  width: 110px;
-  height: 110px;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
   padding: 10px;
   border-radius: 80px;
   box-shadow: 5px 5px 5px grey;
-  margin-right: 40px;
+  margin-left: 2.5vw;
   background-color: white;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
 }
 
 .RightCircleDiv {
-  display: flex;
-  flex-direction: row;
-  float: left;
-  width: 110px;
-  height: 110px;
+  display: inline-block;
+  width: 90px;
+  height: 90px;
   padding: 10px;
   border-radius: 80px;
   box-shadow: 5px 5px 5px grey;
-  margin-left: 40px;
+  margin-right: 2.5vw;
   background-color: white;
+  vertical-align: middle;
+  position: relative;
 }
 
-.fillRightBlurbImages { /* For fortissimo logo */
-  display: flex;
-  flex-direction: row;
-  float: left;
-  width: 130px;
-  height: 130px;
-  padding: 0px;
-  border-radius: 80px;
-  box-shadow: 5px 5px 5px grey;
-  margin-left: 40px;
+.LeftBlurbImages{
+  width: 80px;
+  border-radius: 15px;
   background-color: white;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
 
-.fillLeftBlurbImages { /* For sf.jpg */
-  display: flex;
-  flex-direction: row;
-  float: right;
-  width: 130px;
-  height: 130px;
-  padding: 0px;
-  border-radius: 80px;
-  box-shadow: 5px 5px 5px grey;
-  margin-right: 40px;
-  background-color: white;
+.RightBlurbImages {
+  width: 80px;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
 }
