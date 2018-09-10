@@ -1,21 +1,10 @@
 .WhatWeDo {
   width: 100vw;
   background-color: #FEF7FF;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.Blurbs {
-    position: relative;
-    left: 5%;
-    background-color: #E8D3F7;
-    width: 73%;
-    font-family: Raleway;
-    font-size: 18pt;
-    text-align: center;
-    font-weight: normal;
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-  }
 .Catch {
     position: relative;
     background-color: #E8D3F7;
@@ -37,65 +26,19 @@
     flex-direction: row;
 }
 
-.blurbDivs {
-  padding: 30px 0px 30px 0px;
-}
-
-#title {
-  align: center;
-  justify-content: center;
-  text-align: center;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding: 20px;
-  font-size: 34pt;
-  font-style: italic;
-  font-weight: lighter;
-  color: #9739E8
-}
-
-
-.LeftBlurbImages{
-  float: right;
-  width: 100px;
-  height: 100px;
-  padding: 0px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
-.RightBlurbImages {
-  float: left;
-  width: 100px;
-  height: 100px;
-  padding: 0px;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-}
-
 #wwdLeftBlurb {
-  padding: 0px;
-  border-radius: 50%;
-  margin-right: 40px;
-  box-shadow: 5px 5px 5px grey
+  width: 85px;
 }
 
 #wwdRightBlurb {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-  margin-left: 40px;
-  box-shadow: 5px 5px 5px grey;
+  width: 85px;
 }
 
 @media (max-width: 380px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 55%;
+    }
+    .BlurbText{
         font-size: 6pt;
         width: 57vw;
         padding: 10px;
@@ -127,17 +70,10 @@
         width: 50px;
         height: 50px;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 6pt;
         width: 57vw;
         padding: 10px;
-    }
-    #wwdRightBlurb {
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      margin-left: 40px;
-      box-shadow: 5px 5px 5px grey;
     }
     .Catch{
         font-size: 10pt;
@@ -146,12 +82,24 @@
       padding: 11px;
     }
     #title{
-      font-size: 16pt;
+      font-size: 8vw;
+    }
+    #wwdLeftBlurb {
+      width: 50px;
+      height: 50px;
+    }
+
+    #wwdRightBlurb {
+      width: 50px;
+      height: 50px;
     }
 }
 
 @media (max-width: 430px) and (min-width: 381px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 60%;
+    }
+    .BlurbText{
         font-size: 8pt;
         width: 57vw;
         padding: 15px;
@@ -183,17 +131,10 @@
         width: 50px;
         height: 50px;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 8pt;
         width: 57vw;
         padding: 15px;
-    }
-    #wwdRightBlurb {
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      margin-left: 40px;
-      box-shadow: 5px 5px 5px grey;
     }
     .Catch{
         font-size: 10pt;
@@ -203,12 +144,23 @@
         padding: 12px;
     }
     #title{
-      font-size: 17pt;
+      font-size: 7vw;
+    }
+    #wwdLeftBlurb {
+      width: 55px;
+      height: 55px;
+    }
+    #wwdRightBlurb {
+      width: 55px;
+      height: 55px;
     }
 }
 
 @media (max-width: 480px) and (min-width: 431px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 60%;
+    }
+    .BlurbText{
         font-size: 10pt;
         width: 57vw;
     }
@@ -236,16 +188,9 @@
         width: 65px;
         height: 65px;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 10pt;
         width: 57vw;
-    }
-    #wwdRightBlurb {
-      width: 40px;
-      height: 40px;
-      border-radius: 50%;
-      margin-left: 40px;
-      box-shadow: 5px 5px 5px grey;
     }
     .Catch{
         font-size: 12pt;
@@ -254,11 +199,22 @@
         padding: 13px;
     }
     #title{
-      font-size: 18pt;
+      font-size: 6vw;
+    }
+    #wwdLeftBlurb {
+      width: 55px;
+      height: 55px;
+    }
+    #wwdRightBlurb {
+      width: 55px;
+      height: 55px;
     }
 }
 @media (max-width: 580px) and (min-width: 481px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 60%;
+    }
+    .BlurbText{
         font-size: 13pt;
         width: 57.5vw;
     }
@@ -286,16 +242,9 @@
         width: 90px;
         height: 90px;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 13pt;
         width: 57.5vw;
-    }
-    #wwdRightBlurb {
-      width: 65px;
-      height: 65px;
-      border-radius: 50%;
-      margin-left: 40px;
-      box-shadow: 5px 5px 5px grey;
     }
     .Catch{
         font-size: 15pt;
@@ -304,12 +253,23 @@
         padding: 14px;
     }
     #title{
-      font-size: 20pt;
+      font-size: 6vw;
+    }
+    #wwdLeftBlurb {
+      width: 55px;
+      height: 55px;
+    }
+    #wwdRightBlurb {
+      width: 55px;
+      height: 55px;
     }
 }
 
 @media (max-width: 750px) and (min-width: 581px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 60%;
+    }
+    .BlurbText{
         font-size: 13pt;
         width: 57.5vw;
     }
@@ -337,16 +297,9 @@
         width: 100px;
         height: 100px;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 13pt;
         width: 57.5vw;
-    }
-    #wwdRightBlurb {
-      width: 75px;
-      height: 75px;
-      border-radius: 50%;
-      margin-left: 40px;
-      box-shadow: 5px 5px 5px grey;
     }
     .Catch{
         font-size: 20pt;
@@ -355,25 +308,29 @@
         padding: 15px;
     }
     #title{
-      font-size: 22px;
+      font-size: 5vw;
+    }
+    #wwdLeftBlurb {
+      width: 65px;
+      height: 65px;
+    }
+    #wwdRightBlurb {
+      width: 65px;
+      height: 65px;
     }
 }
 
 @media (max-width: 1800px) and (min-width: 751px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 70%;
+    }
+    .BlurbText{
         font-size: 15pt;
         width: 60vw;
     }
-    .endingBlurbs{
+    .endingBlurbText{
         font-size: 15pt;
         width: 60vw;
-      }
-      #wwdRightBlurb {
-        width: 100px;
-        height: 100px;
-        border-radius: 50%;
-        margin-left: 40px;
-        box-shadow: 5px 5px 5px grey;
       }
      .Catch{
          font-size: 25pt;
@@ -382,16 +339,27 @@
           padding: 17px;
      }
      #title{
-       font-size: 24pt;
+       font-size: 4.3vw;
      }
+    #wwdLeftBlurb {
+      width: 80px;
+      height: 80px;
+    }
+    #wwdRightBlurb {
+      width: 80px;
+      height: 80px;
+    }
 }
 
 @media (max-width: 1500px) and (min-width: 1000px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 70%;
+    }
+    .BlurbText{
         font-size: 15pt;
         width: 60vw;
     }
-    .endingBlurbs {
+    .endingBlurbText {
         font-size: 15pt;
         width: 60vw;
       }
@@ -399,41 +367,54 @@
         padding: 18px;
       }
       #title{
-        font-size: 27pt;
+        font-size: 4.3vw;
       }
+    #wwdLeftBlurb {
+      width: 80px;
+      height: 80px;
+    }
+    #wwdRightBlurb {
+      width: 80px;
+      height: 80px;
+    }
 }
 
 @media (max-width: 1800px) and (min-width: 1501px){
-    .Blurbs{
+    .BlurbContainer{
+        width: 73%;
+    }
+    .BlurbText{
         font-size: 15pt;
         width: 60vw;
     }
-    .endingBlurbs {
+    .endingBlurbText {
         font-size: 15pt;
         width: 60vw;
       }
       #catchDiv{
         padding: 19px;
       }
+    #wwdLeftBlurb {
+      width: 80px;
+      height: 80px;
+    }
+    #wwdRightBlurb {
+      width: 80px;
+      height: 80px;
+    }
 }
 
 
 @media (min-width: 1801px){
-    .Blurbs {
-        position: relative;
-        left: 5%;
-        background-color: #E8D3F7;
-        width: 73vw;
-        font-family: Raleway;
-        font-size: 18pt;
-        text-align: center;
-        font-weight: normal;
-        padding: 20px;
-        border-radius: 5px;
-        display: inline-block;
+    .BlurbContainer{
+        width: 73%;
+    }
+    .BlurbText{
+        font-size: 15pt;
+        width: 60vw;
     }
 
-    .endingBlurbs {
+    .endingBlurbText {
           position: relative;
           left: 5%;
           background-color: #E8D3F7;
@@ -446,4 +427,12 @@
           border-radius: 5px;
           display: inline-block;
       }
+    #wwdLeftBlurb {
+      width: 80px;
+      height: 80px;
+    }
+    #wwdRightBlurb {
+      width: 80px;
+      height: 80px;
+    }
 }
