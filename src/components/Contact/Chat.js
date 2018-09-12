@@ -6,7 +6,7 @@ class Chat extends Component {
       <div>
         <a
           id="Chat"
-          href="m.me/breakfasy"
+          href="https://m.me/breakfasy"
           target="_blank"
           rel="noopener noreferrer"
         >

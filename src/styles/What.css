@@ -320,7 +320,7 @@
     }
 }
 
-@media (max-width: 1800px) and (min-width: 751px){
+@media (max-width: 900px) and (min-width: 751px){
     .BlurbContainer{
         width: 70%;
     }

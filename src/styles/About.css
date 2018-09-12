@@ -43,13 +43,6 @@
   margin-bottom: 15px;
 }
 
-.RightBlurbImages {
-  float: left;
-  width: 80px;
-  border-radius: 15px;
-  background-color: white;
-}
-
 .LeftCircleDiv {
   display: inline-block;
   width: 90px;
@@ -88,8 +81,11 @@
 }
 
 .RightBlurbImages {
+  float: left;
   width: 80px;
-  position:absolute;
+  border-radius: 15px;
+  background-color: white;
+  position: absolute;
   top:50%;
   left:50%;
   transform: translate(-50%, -50%);
