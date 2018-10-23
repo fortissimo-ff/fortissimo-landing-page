@@ -6,7 +6,7 @@ class Help extends Component {
       <div>
         <a
           id="Help"
-          href="https://www.surveymonkey.com/r/Y6JCLQG"
+          href="https://goo.gl/forms/GR2ufzH9jDme4h0e2"
           target="_blank"
           rel="noopener noreferrer"
         >
