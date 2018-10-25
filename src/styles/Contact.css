@@ -90,6 +90,24 @@
   vertical-align: middle;
 }
 
+#Legal {
+  font-weight: normal;
+  position: absolute;
+  top: 97%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1vw;
+  color: white;
+  vertical-align: middle;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
 @media (max-width: 380px){
   #Header {
     font-size: 8vw;
@@ -107,6 +125,9 @@
     width: 7vw;
   }
   #Copyright{
+    font-size: 2.5vw;
+  }
+  #Legal{
     font-size: 2.5vw;
   }
 }
@@ -130,6 +151,9 @@
   #Copyright{
     font-size: 2vw;
   }
+  #Legal{
+    font-size: 2vw;
+  }
 }
 
 @media (max-width: 480px) and (min-width: 431px){
@@ -149,6 +173,9 @@
     width: 5vw;
   }
   #Copyright{
+    font-size: 1.5vw;
+  }
+  #Legal{
     font-size: 1.5vw;
   }
 }

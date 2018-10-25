@@ -4,8 +4,9 @@ class Copyright extends Component {
   render() {
     return (
       <h1 id="Copyright">
-        <div>© 2018 fortissimo. All rights reserved.</div>
-      </h1>
+        <div>© 2018 fortissimo. All rights reserved. 
+        </div>
+      </h1>    
     );
   }
 }

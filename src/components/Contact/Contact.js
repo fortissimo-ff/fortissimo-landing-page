@@ -8,6 +8,7 @@ import Help from "./Help.js";
 import SocialMediaIcons from "./SocialMediaIcons.js";
 import Follow from "./Follow.js";
 import Copyright from "./Copyright.js";
+import Legal from "./Legal.js";
 
 class Contact extends Component {
   render() {
@@ -19,6 +20,7 @@ class Contact extends Component {
         <SocialMediaIcons />
         <Follow />
         <Copyright />
+        <Legal />
       </div>
     );
   }
