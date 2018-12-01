@@ -6,11 +6,11 @@ class Help extends Component {
       <div>
         <a
           id="Help"
-          href="https://goo.gl/forms/GR2ufzH9jDme4h0e2"
+          href="https://goo.gl/forms/68rt37pElAEhk3M82"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Take a minute to help.
+          Join the create account wait list.
         </a>
       </div>
     );
