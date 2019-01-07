@@ -51,7 +51,7 @@ class Blurbs extends Component {
 
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            The app enables individuals to purchase a healthy and low-price breakfast.
+            The app enables individuals to purchase a healthy and low-price breakfast from our business partners.
             </h3>
           </div>
 
