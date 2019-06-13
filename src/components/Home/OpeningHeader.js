@@ -5,7 +5,7 @@ class OpeningHeader extends Component {
     return (
       <h1 id="OpeningHeader">
         <div>Change someone's life.</div>
-        <div><b>One breakfast at a time.</b></div>
+        <div><b>One meal at a time.</b></div>
       </h1>
     );
   }

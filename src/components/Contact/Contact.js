@@ -3,6 +3,7 @@ import "../../styles/Contact.css";
 
 // Components
 import Header from "./Header.js";
+import Feedback from "./Feedback.js";
 import Chat from "./Chat.js";
 import Help from "./Help.js";
 import SocialMediaIcons from "./SocialMediaIcons.js";
@@ -15,6 +16,7 @@ class Contact extends Component {
     return (
       <div className="Contact" id="Contact">
         <Header />
+        <Feedback />
         <Chat />
         <Help />
         <SocialMediaIcons />

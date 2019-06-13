@@ -22,9 +22,23 @@
   vertical-align: middle;
 }
 
+#Feedback {
+  position: absolute;
+  top: 24%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.75vw;
+  color: white;
+  vertical-align: middle;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 #Chat {
   position: absolute;
-  top: 36%;
+  top: 38%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -38,7 +52,7 @@
 
 #Help {
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -112,6 +126,9 @@ a:link {
   #Header {
     font-size: 8vw;
   }
+  #Feedback {
+    font-size: 5vw;
+  } 
   #Follow{
     font-size: 5vw;
   }
@@ -136,6 +153,9 @@ a:link {
   #Header {
     font-size: 7vw;
   }
+  #Feedback {
+    font-size: 4vw;
+  }
   #Follow{
     font-size: 4vw;
   }
@@ -159,6 +179,9 @@ a:link {
 @media (max-width: 480px) and (min-width: 431px){
   #Header {
     font-size: 6vw;
+  }
+  #Feedback {
+    font-size: 3vw;
   }
   #Follow{
     font-size: 3vw;

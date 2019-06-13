@@ -73,7 +73,7 @@ class BlurbContainer extends Component {
           <div className = "BlurbContainer">
             <h3 className = "BlurbText">
               She decided that something has to be done to help these people get out of the vicious cycle of not even having a roof over their heads.
-              She thought of mobilizing the able to help those in need, beginning with the homeless in SF.
+              She thought of mobilizing the able to help those in need, through the consumption of meals, beginning with breakfast.
             </h3>
           </div>
 

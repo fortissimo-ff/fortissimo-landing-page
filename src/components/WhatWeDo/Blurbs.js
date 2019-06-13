@@ -23,10 +23,10 @@ class Blurbs extends Component {
         <div id="catchDiv" className = "blurbDivs">
 
           <h3 className ="Catch">
-          We want you to make a difference in someone else's life while you reap the health benefits of breakfast.
+          We want you to make a difference in someone else's life while you reap the health benefits through the consumption of meals, beginning with breakfast.
 
           <ColoredLine color= "gray" />
-          <font color="gray">Breakfast Software Served Sunny-side Up to Change Lives</font>
+          <font color="gray">Meal Software Served Sunny-side Up to Change Lives</font>
           <ColoredLine color="gray"/>
           </h3>
 
@@ -41,7 +41,7 @@ class Blurbs extends Component {
 
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            So how does our breakfast app change lives?
+            So how does our meal app change lives?
             </h3>
           </div>
 
@@ -51,7 +51,7 @@ class Blurbs extends Component {
 
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            The app enables individuals to purchase a healthy and low-price breakfast from our business partners.
+            The app enables individuals to purchase a healthy and low-price meal from our business partners.
             </h3>
           </div>
 
@@ -68,7 +68,7 @@ class Blurbs extends Component {
           </div>
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            A percentage of your purchase is immediately contributed to helping people in need when using our app.
+            A percentage of your purchase is immediately contributed to helping people in need through our community partners when using our app.
             </h3>
           </div>
 

@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "fortissimo-landing-page"
+    "default": "fortissimo-landing-page",
+    "development": "fortissimo-landing-page"
   }
 }

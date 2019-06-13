@@ -1,20 +1,20 @@
 import React, { Component } from "react";
 
-class Chat extends Component {
+class Feedback extends Component {
   render() {
     return (
       <div>
         <a
-          id="Chat"
-          href="https://goo.gl/forms/dVC3pUmkT87PTnS23"
+          id="Feedback"
+          href="https://goo.gl/forms/GR2ufzH9jDme4h0e2"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Request for benefits, demo, and pricing.
+          Feedback for consumers.
         </a>
       </div>
     );
   }
 }
 
-export default Chat;
+export default Feedback;
