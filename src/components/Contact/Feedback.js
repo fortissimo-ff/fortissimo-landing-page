@@ -6,11 +6,11 @@ class Feedback extends Component {
       <div>
         <a
           id="Feedback"
-          href="https://goo.gl/forms/GR2ufzH9jDme4h0e2"
+          href="https://forms.gle/Vbh38D4FXQmAdJsz6"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Feedback for consumers.
+          Tell fortissimo what you think
         </a>
       </div>
     );
