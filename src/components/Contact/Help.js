@@ -10,7 +10,7 @@ class Help extends Component {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Join the create account wait list.
+          Join the create account wait list - It's Free. 
         </a>
       </div>
     );

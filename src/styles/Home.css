@@ -1,6 +1,6 @@
 .Home {
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   background-image: url('../img/img-bg-dark.jpg');
   background-size: cover;
   text-align: center;
@@ -21,9 +21,20 @@
   font-size: 5vw;
 }
 
+#FollowingHeader {
+  font-weight: normal;
+  position: absolute;
+  top: 42%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3vw;
+}
+
 .LearnMoreButton {
   position: absolute;
-  top: 52%;
+  top: 55%;
   left: 0;
   right: 0;
   margin-left: auto;

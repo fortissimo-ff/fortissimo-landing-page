@@ -23,10 +23,10 @@ class Blurbs extends Component {
         <div id="catchDiv" className = "blurbDivs">
 
           <h3 className ="Catch">
-          We want you to make a difference in someone else's life while you reap the health benefits through the consumption of meals, beginning with breakfast.
-
+          Hungry 821.6 million people worldwide | Obese 672 million adults worldwide | Poor 736 million people worldwide | Homeless 150 million people worldwide | Food Wastage 
+          1.3 billion tons worldwide | Heavy Stomach Symptoms no official numbers, common, urgent | Difficult to Determine Legitimate Charities 70% of donors in the US | Amount Lost to Fake Charities in Australia in 2019 $287 234 | Charity Tax Shelter Scam in Canada over $7 billion worth of tax claims denied
           <ColoredLine color= "gray" />
-          <font color="gray">Meal Software Served Sunny-side Up to Change Lives</font>
+          <font color="gray">Platform for Meal-generated Transparent Donations - Create an Account, It's Free</font>
           <ColoredLine color="gray"/>
           </h3>
 
@@ -68,7 +68,7 @@ class Blurbs extends Component {
           </div>
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            A percentage of your purchase is immediately contributed to helping people in need through our community partners when using our app.
+            A percentage of your purchase is immediately contributed to helping people in need through our community partners when using our app. No extra money is required as contribution.
             </h3>
           </div>
 

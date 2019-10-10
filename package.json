@@ -5,16 +5,16 @@
   "dependencies": {
     "macaddress": "^0.2.9",
     "macaddress-secure": "^0.2.11",
-    "react": "^16.3.2",
-    "react-anchor-link-smooth-scroll": "^1.0.11",
-    "react-dom": "^16.3.2",
-    "react-infinite-scroll-component": "^4.2.0",
-    "react-native-mixpanel": "^1.1.1",
-    "react-player": "^1.6.4",
-    "react-scripts": "^3.0.1",
+    "react": "^16.10.2",
+    "react-anchor-link-smooth-scroll": "^1.0.12",
+    "react-dom": "^16.10.2",
+    "react-infinite-scroll-component": "^4.5.3",
+    "react-native-mixpanel": "^1.1.4",
+    "react-player": "^1.13.0",
+    "react-scripts": "^3.2.0",
     "react-scroll-to-component": "^1.0.2",
-    "smoothscroll-polyfill": "^0.4.3",
-    "url-parse": "^1.4.3"
+    "smoothscroll-polyfill": "^0.4.4",
+    "url-parse": "^1.4.7"
   },
   "scripts": {
     "start": "react-scripts start",
