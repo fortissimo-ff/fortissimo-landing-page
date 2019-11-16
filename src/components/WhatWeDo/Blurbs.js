@@ -41,7 +41,7 @@ class Blurbs extends Component {
 
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            So how does our meal app change lives?
+            1. Order Your Meal - Choose your favorite meal from your preferred meal provider where you are located.
             </h3>
           </div>
 
@@ -51,12 +51,12 @@ class Blurbs extends Component {
 
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            The app enables individuals to purchase a healthy and low-price meal from our business partners.
+            2. Help Someone - Contribute a portion of what you pay for buying your meal to your preferred local charity where you are located.
             </h3>
           </div>
 
           <div className="LeftCircleDiv">
-            <img className = "LeftBlurbImages" id = "wwdLeftBlurb" src={require("../../img/img-clipart-wwd-money.png")} alt="money"/>
+            <img className = "LeftBlurbImages" id = "wwdLeftBlurb" src={require("../../img/img-clipart-wwd-percent.png")} alt="money"/>
           </div>
 
         </div>
@@ -64,11 +64,11 @@ class Blurbs extends Component {
         <div className = "blurbDivs">
 
           <div className="RightCircleDiv">
-            <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-percent.png")} alt="percentage"/>
+            <img className = "RightBlurbImages" id = "wwdRightBlurb" src={require("../../img/img-clipart-wwd-money.png")} alt="percentage"/>
           </div>
           <div className = "BlurbContainer">
             <h3 className="BlurbText">
-            A percentage of your purchase is immediately contributed to helping people in need through our community partners when using our app. No extra money is required as contribution.
+            3. Dig In, Have An Awesome Day - Enjoy your favorite meal where you are located or skip the line for a dine-in or to-go/take-away experience.
             </h3>
           </div>
 
