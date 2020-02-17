@@ -16,7 +16,7 @@ class Blurbs extends Component {
       <div>
 
         <h1 id = "title" >
-          what we do
+          what we do | how it works
         </h1>
 
 
